@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BB11D8952472CC8500D7F75A /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB11D8942472CC8500D7F75A /* Models.swift */; };
+		BB3036852478593A001F8A21 /* Sheikh.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3036842478593A001F8A21 /* Sheikh.swift */; };
+		BB30369D24787ECA001F8A21 /* Playsound.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB30369C24787ECA001F8A21 /* Playsound.swift */; };
+		BB3036A4247971BB001F8A21 /* فهد الكندري.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB30369E247971BA001F8A21 /* فهد الكندري.mp3 */; };
+		BB3036A5247971BB001F8A21 /* فهد المطيري.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB30369F247971BA001F8A21 /* فهد المطيري.mp3 */; };
+		BB3036A6247971BB001F8A21 /* وديع اليمني.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB3036A0247971BA001F8A21 /* وديع اليمني.mp3 */; };
+		BB3036A7247971BB001F8A21 /* مشاري العفاسي.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB3036A1247971BA001F8A21 /* مشاري العفاسي.mp3 */; };
+		BB3036A8247971BB001F8A21 /* أحمد النفيس.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB3036A2247971BA001F8A21 /* أحمد النفيس.mp3 */; };
+		BB3036A9247971BB001F8A21 /* هزاع البلوشي.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB3036A3247971BB001F8A21 /* هزاع البلوشي.mp3 */; };
 		BB3F5B36247174B1002FAFD0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3F5B35247174B1002FAFD0 /* AppDelegate.swift */; };
 		BB3F5B38247174B1002FAFD0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3F5B37247174B1002FAFD0 /* SceneDelegate.swift */; };
 		BB3F5B3A247174B1002FAFD0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3F5B39247174B1002FAFD0 /* ContentView.swift */; };
@@ -16,6 +25,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BB11D8942472CC8500D7F75A /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		BB3036842478593A001F8A21 /* Sheikh.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sheikh.swift; sourceTree = "<group>"; };
+		BB30369C24787ECA001F8A21 /* Playsound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Playsound.swift; sourceTree = "<group>"; };
+		BB30369E247971BA001F8A21 /* فهد الكندري.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "فهد الكندري.mp3"; sourceTree = "<group>"; };
+		BB30369F247971BA001F8A21 /* فهد المطيري.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "فهد المطيري.mp3"; sourceTree = "<group>"; };
+		BB3036A0247971BA001F8A21 /* وديع اليمني.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "وديع اليمني.mp3"; sourceTree = "<group>"; };
+		BB3036A1247971BA001F8A21 /* مشاري العفاسي.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "مشاري العفاسي.mp3"; sourceTree = "<group>"; };
+		BB3036A2247971BA001F8A21 /* أحمد النفيس.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "أحمد النفيس.mp3"; path = "TME/أحمد النفيس.mp3"; sourceTree = "<group>"; };
+		BB3036A3247971BB001F8A21 /* هزاع البلوشي.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "هزاع البلوشي.mp3"; sourceTree = "<group>"; };
 		BB3F5B32247174B1002FAFD0 /* TME.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TME.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB3F5B35247174B1002FAFD0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BB3F5B37247174B1002FAFD0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,9 +55,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BB11D8932472CC4700D7F75A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BB11D8942472CC8500D7F75A /* Models.swift */,
+				BB3036842478593A001F8A21 /* Sheikh.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		BB3F5B29247174B1002FAFD0 = {
 			isa = PBXGroup;
 			children = (
+				BB3036A2247971BA001F8A21 /* أحمد النفيس.mp3 */,
+				BB30369E247971BA001F8A21 /* فهد الكندري.mp3 */,
+				BB30369F247971BA001F8A21 /* فهد المطيري.mp3 */,
+				BB3036A1247971BA001F8A21 /* مشاري العفاسي.mp3 */,
+				BB3036A3247971BB001F8A21 /* هزاع البلوشي.mp3 */,
+				BB3036A0247971BA001F8A21 /* وديع اليمني.mp3 */,
 				BB3F5B34247174B1002FAFD0 /* TME */,
 				BB3F5B33247174B1002FAFD0 /* Products */,
 			);
@@ -56,9 +89,11 @@
 		BB3F5B34247174B1002FAFD0 /* TME */ = {
 			isa = PBXGroup;
 			children = (
+				BB11D8932472CC4700D7F75A /* Models */,
 				BB3F5B35247174B1002FAFD0 /* AppDelegate.swift */,
 				BB3F5B37247174B1002FAFD0 /* SceneDelegate.swift */,
 				BB3F5B39247174B1002FAFD0 /* ContentView.swift */,
+				BB30369C24787ECA001F8A21 /* Playsound.swift */,
 				BB3F5B3B247174BC002FAFD0 /* Assets.xcassets */,
 				BB3F5B40247174BC002FAFD0 /* LaunchScreen.storyboard */,
 				BB3F5B43247174BC002FAFD0 /* Info.plist */,
@@ -134,7 +169,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				BB3F5B42247174BC002FAFD0 /* LaunchScreen.storyboard in Resources */,
+				BB3036A8247971BB001F8A21 /* أحمد النفيس.mp3 in Resources */,
+				BB3036A9247971BB001F8A21 /* هزاع البلوشي.mp3 in Resources */,
+				BB3036A6247971BB001F8A21 /* وديع اليمني.mp3 in Resources */,
 				BB3F5B3F247174BC002FAFD0 /* Preview Assets.xcassets in Resources */,
+				BB3036A7247971BB001F8A21 /* مشاري العفاسي.mp3 in Resources */,
+				BB3036A5247971BB001F8A21 /* فهد المطيري.mp3 in Resources */,
+				BB3036A4247971BB001F8A21 /* فهد الكندري.mp3 in Resources */,
 				BB3F5B3C247174BC002FAFD0 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -148,7 +189,10 @@
 			files = (
 				BB3F5B36247174B1002FAFD0 /* AppDelegate.swift in Sources */,
 				BB3F5B38247174B1002FAFD0 /* SceneDelegate.swift in Sources */,
+				BB3036852478593A001F8A21 /* Sheikh.swift in Sources */,
 				BB3F5B3A247174B1002FAFD0 /* ContentView.swift in Sources */,
+				BB11D8952472CC8500D7F75A /* Models.swift in Sources */,
+				BB30369D24787ECA001F8A21 /* Playsound.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
